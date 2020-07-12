@@ -1,0 +1,10 @@
+#include"schedulers.h"
+#include<stdio.h>
+
+
+void schedule(int *pri,int *bur,int count)
+{
+    int i;
+    for (i=0;i<count;i++)
+        printf("run T%d for %d units\n",i+1,bur[i]);
+}

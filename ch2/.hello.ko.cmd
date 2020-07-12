@@ -1,0 +1,1 @@
+cmd_/home/pzc/os/ch2/hello.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/pzc/os/ch2/hello.ko /home/pzc/os/ch2/hello.o /home/pzc/os/ch2/hello.mod.o ;  true
